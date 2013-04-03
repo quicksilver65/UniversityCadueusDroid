@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/Search"
+        android:textSize="22sp"
+        tools:context=".SearchActivity" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCompleteSpecialty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="@string/specialtyHint"
+        android:padding="10sp"
+       
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCompleteCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="@string/cityHint"
+        android:padding="10sp"
+    
+        
+        />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:hint="@string/nameHint"
+        android:inputType="textPersonName"
+        android:padding="10sp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:text="@string/SearchButtonText" />
+
+</LinearLayout>
